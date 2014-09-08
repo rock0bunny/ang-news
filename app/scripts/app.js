@@ -1,13 +1,10 @@
 'use strict';
 
 /**
- * @ngdoc overview
- * @name angNewsApp
- * @description
- * # angNewsApp
- *
  * Main module of the application.
  */
+
+/* global app:true */
 var app = angular
   .module('angNewsApp', [
     'ngAnimate',
