@@ -12,8 +12,10 @@ var app = angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
-  ]);
+    'ngTouch',
+    'firebase'
+  ])
+  .constant('FIREBASE_URL', 'https://angrock.firebaseio.com/');
 
   app.config(function ($routeProvider) {
     $routeProvider
