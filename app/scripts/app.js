@@ -27,6 +27,10 @@ var app = angular
           templateUrl: 'views/showpost.html',
           controller: 'PostViewCtrl'
       })
+      .when('/login', {
+          templateUrl: 'views/login.html',
+          controller: 'AuthCtrl'
+      })
       .when('/register', {
           templateUrl: 'views/register.html',
           controller: 'AuthCtrl'
